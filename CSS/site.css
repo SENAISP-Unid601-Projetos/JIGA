@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #000000, #6b1e74);
+    flex-direction: column;
+}
+
+header {
+    padding: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: 15px 40px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #fff;
+    text-decoration:#6b1e74 5px underline ;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.home {
+    background-image: 'IMG/';
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 10px ;
+}
+
+.banner{
+    width: 850px;
+    clip-path: inset(0px 0px 100px 0px round 30px); 
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-bottom: -80px;
+}
+
+.banner:hover{
+    width: 880px;
+    clip-path: inset(0px 0px 100px 0px round 30px); 
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.bemvindo{
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.sobreJogo{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px 10px 50px;
+    margin: 0px 160px;
+    
+}
+
+.sinopse{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.caixa1 {
+    display: flex;
+}
+
+.artemis1 {
+    margin-top: -140px;
+    margin-left: 26px;
+    margin-right: -20px;
+    clip-path: inset(0px 0px 100px 0px round 30px);
+    margin-bottom: -100px;
+}
+
+.sinopse2{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.caixa2 {
+    display: flex;
+}
+
+.orion {
+    margin-top: -140px;
+    margin-right: 26px;
+    margin-left: -20px;
+    clip-path: inset(0px 0px 100px 0px round 30px);
+    margin-bottom: -100px;
+}
+
+.jiga{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px 10px 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.jigafoto{
+    width: 850px;
+    clip-path: inset(20px round 30px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.descricao{
+    margin: 0px 260px;
+}
+
+.pessoal {
+    margin-top: 30px;
+
+}
+
+.teste{
+    display: flex;
+    justify-content: center;
+}
+
+.gabi{
+    width: 230px;
+    clip-path: circle(100px at center);
+}
+
+.carpini{
+    width: 230px;
+    clip-path: circle(100px at 130px 120px);
+}
+
+.iago{
+    width: 230px;
+    clip-path: circle(100px at 130px 120px);
+    margin-left: -40px;
+}
+
+.eu{
+    width: 270px;
+    clip-path: circle(100px at center);
+}
+
+.makingof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 75%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    
+}

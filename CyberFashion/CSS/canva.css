@@ -1,0 +1,539 @@
+@font-face {
+    font-family: 'VCR';
+    src: url(../FONT/VCR_OSD_MONO_1.001.ttf);
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow-x:hidden ;
+    overflow-y: hidden;
+    background-color: black;
+}
+
+body{
+    background-color: #421347;
+}
+
+#cutscene {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+}
+
+#botMusica {
+    display: flex;
+    position: fixed;
+    width: 110px;
+    margin-left: 800px;
+    margin-top: 300px;
+}
+
+#botSobre {
+    display: flex;
+    position: fixed;
+    width: 110px;
+    margin-right: 800px;
+    margin-top: 300px;
+}
+
+#pula {
+    display: flex;
+    position: absolute;
+    width: 80px;
+    margin-left: 1200px;
+    margin-top: 500px;
+}
+
+#Ia{
+    display: flex;
+    position: absolute;
+    margin-left: -369px;
+    margin-top: 50px;
+    width: 281px;
+    height: 725px;
+    display: none;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+#Io{
+    display: flex;
+    position: absolute;
+    margin-right: -342px;
+    margin-top: 38px;
+    width: 281px;
+    height: 725px;
+    cursor: pointer;
+    display: none;
+    transition: .5s;
+}
+
+#Ia:hover{
+    width: 301px;
+    height: 760px;
+}
+
+#Io:hover{
+    width: 301px;
+    height: 760px;
+    
+}
+
+#quizz{
+    display: flex;
+    position: absolute;
+    padding-bottom: 70px;
+}
+
+#perguntas1{
+    display: flex;
+    margin-left: 245px;
+    margin-top: 40px;  
+}
+
+#perguntas2{
+    display: flex;
+    margin-left: 245px;
+    margin-top: 20px;  
+}
+
+#perguntas3{
+    display: flex;
+    margin-left: 245px;
+    margin-top: 10px;  
+}
+
+#perguntas4{
+    display: flex;
+    margin-left: 245px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#p24{
+    display: flex;
+    margin-top: -14px;
+}
+
+#perguntas5{
+    display: flex;
+    margin-left: 245px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#p25, #p15{
+    display: flex;
+    margin-bottom: -15px;
+}
+
+#perguntas6{
+    display: flex;
+    margin-left: 245px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#p26, #p16{
+    display: flex;
+    margin-bottom: -10px;
+}
+
+#perguntas7{
+    display: flex;
+    margin-left: 245px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+#p27{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -6px;
+}
+
+#p17{
+    display: flex;
+    margin-top: -55px;
+}
+
+#perguntas8{
+    display: flex;
+    margin-left: 245px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+#p28{
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+#p18{
+    display: flex;
+    margin-top: -50px;
+}
+
+#perguntas9{
+    display: flex;
+    margin-left: 245px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+#p29{
+    display: flex;
+    margin-top: -16px;
+}
+
+#p1, #p2, #p3, #p12, #p22, #p32, #p13, #p23, #p33, #p14, #p24, #p34, #p15, #p25, #p35, #p16, #p26, #p36, #p17, #p27, #p37, #p18, #p28, #p38, #p19, #p29, #p39 {
+    cursor: pointer;
+}
+
+#enunciado{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family:'VCR';
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-left: 290px;
+    padding-right: 400px;
+    
+}
+ 
+#BE, #BD, #CE, #CD, #SE, #SD, #AE, #AD {
+    display: flex;
+    position: absolute;
+    height: 50px;
+}
+
+#BE{
+    display: flex;
+    margin-left: -890px;
+    margin-top: -160px;
+    cursor: pointer;
+}
+#BD{
+    display: flex;
+    margin-left: -580px;
+    margin-top: -160px;
+    cursor: pointer;
+}
+
+#CE{
+    display: flex;
+    margin-left: -890px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+#CD{
+    display: flex;
+    margin-left: -580px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#SE{
+    display: flex;
+    margin-left: -890px;
+    margin-top: 250px;
+    cursor: pointer;
+}
+#SD{
+    display: flex;
+    margin-left: -580px;
+    margin-top: 250px;
+    cursor: pointer;
+}
+
+#AE{
+    display: flex;
+    margin-left: -890px;
+    margin-top: -280px;
+    cursor: pointer;
+}
+#AD{
+    display: flex;
+    margin-left: -580px;
+    margin-top: -280px;
+    cursor: pointer;
+}
+
+#BE2, #BD2, #CE2, #CD2, #SE2, #SD2, #AE2, #AD2 {
+    display: flex;
+    position: absolute;
+    height: 50px;
+}
+
+#BE2{
+    display: flex;
+    margin-left: -890px;
+    margin-top: -160px;
+    cursor: pointer;
+}
+#BD2{
+    display: flex;
+    margin-left: -580px;
+    margin-top: -160px;
+    cursor: pointer;
+}
+
+#CE2{
+    display: flex;
+    margin-left: -890px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+#CD2{
+    display: flex;
+    margin-left: -580px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#SE2{
+    display: flex;
+    margin-left: -890px;
+    margin-top: 250px;
+    cursor: pointer;
+}
+#SD2{
+    display: flex;
+    margin-left: -580px;
+    margin-top: 250px;
+    cursor: pointer;
+}
+
+#AE2{
+    display: flex;
+    margin-left: -890px;
+    margin-top: -280px;
+    cursor: pointer;
+}
+#AD2{
+    display: flex;
+    margin-left: -580px;
+    margin-top: -280px;
+    cursor: pointer;
+}
+
+.carrossel {
+    display: flex;
+    position: absolute;
+}
+
+.carrossel1 {
+    width: 200px;
+    height: 310px;
+    overflow: hidden;
+    display: flex;
+    margin-top: -225px;
+    margin-left: -89px;
+    position: absolute;
+    
+}
+
+.carrossel2 {
+    height: 110px;
+    width: 102px;
+    margin-left: -60px;
+    margin-top: -292px;
+    display: flex;
+    position: absolute;
+}
+
+.carrossel3 {
+    height: 455px;
+    width: 295px;
+    margin-left: -165px;
+    margin-top: -80px;
+    display: flex;
+    position: absolute;
+}
+
+.carrossel4 {
+    height: 280px;
+    width: 190px;
+    margin-left: -71px;
+    margin-top: 95px;
+    display: flex;
+    position: absolute;
+}
+
+.carrosselB, .carrosselA, .carrosselC, .carrosselS {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.carrosselFeedback {
+    display: flex;
+    position: absolute;
+}
+
+.carrossel1F {
+    width: 150px;
+    height: 220px;
+    overflow: hidden;
+    display: flex;
+    margin-top: -189px;
+    margin-left: -39px;
+    position: absolute;
+    
+}
+
+.carrossel2F {
+    height: 70px;
+    width: 54px;
+    margin-left: -5px;
+    margin-top: -235px;
+    display: flex;
+    position: absolute;
+}
+
+.carrossel3F {
+    height: 345px;
+    width: 200px;
+    margin-left: -85px;
+    margin-top: -92px;
+    display: flex;
+    position: absolute;
+}
+
+.carrossel4F {
+    height: 190px;
+    width: 120px;
+    margin-left: -18px;
+    margin-top: 68px;
+    display: flex;
+    position: absolute;
+}
+
+.carrosselBF, .carrosselAF, .carrosselCF, .carrosselSF {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.carrosselO {
+    display: flex;
+    position: absolute;
+}
+
+.carrossel1O {
+    width: 275px;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    margin-top: -220px;
+    margin-left: -130px;
+    position: absolute;
+    
+}
+
+.carrossel2O {
+    height: 150px;
+    width: 102px;
+    margin-left: -50px;
+    margin-top: -345px;
+    display: flex;
+    position: absolute;
+}
+
+.carrossel3O {
+    height: 400px;
+    width: 245px;
+    margin-left: -114px;
+    margin-top: -35px;
+    display: flex;
+    position: absolute;
+}
+
+.carrossel4O {
+    height: 160px;
+    width: 227px;
+    margin-left: -100px;
+    margin-top: 215px;
+    display: flex;
+    position: absolute;
+}
+
+.carrosselBO, .carrosselAO, .carrosselCO, .carrosselSO {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.carrosselFeedbackO {
+    display: flex;
+    position: absolute;
+}
+
+.carrossel1FO {
+    width: 190px;
+    height: 235px;
+    overflow: hidden;
+    display: flex;
+    margin-top: -170px;
+    margin-left: -75px;
+    position: absolute;
+    
+}
+
+.carrossel2FO {
+    height: 100px;
+    width: 60px;
+    margin-left: -15px;
+    margin-top: -262px;
+    display: flex;
+    position: absolute;
+}
+
+.carrossel3FO {
+    height: 295px;
+    width: 130px;
+    margin-left: -46px;
+    margin-top: -40px;
+    display: flex;
+    position: absolute;
+}
+
+.carrossel4FO {
+    height: 118px;
+    width: 180px;
+    margin-left: -70px;
+    margin-top: 140px;
+    display: flex;
+    position: absolute;
+}
+
+.carrosselBFO, .carrosselAFO, .carrosselCFO, .carrosselSFO {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+
+
+
+
+
